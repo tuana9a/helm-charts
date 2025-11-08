@@ -1,0 +1,14 @@
+# the hostname, dns you want to forward
+host: tuana9a.com
+ingress:
+  className: nginx
+  # ingress annotations example
+  # annotations:
+  #   cert-manager.io/cluster-issuer: "letsencrypt-production-cloudflare"
+  #   nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  annotations: {}
+service:
+  port: 8080
+target:
+  ip: "" # destination ip address
+  port: "" # destination port

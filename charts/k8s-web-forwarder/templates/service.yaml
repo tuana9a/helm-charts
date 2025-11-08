@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-forwarder
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+    {{- $service := .Values.service }}
+    - protocol: TCP
+      port: {{ $service.port }}
+      targetPort: {{ required "target.port" .Values.target.port }}
