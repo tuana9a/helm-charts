@@ -1,0 +1,7 @@
+# Thanks: https://github.com/grafana/helm-charts/blob/76d7026888fa2820457a4f819195575233414788/cr.yaml
+
+sign: false
+
+# Enable automatic generation of release notes using GitHubs release notes generator.
+# see: https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes
+generate-release-notes: true
