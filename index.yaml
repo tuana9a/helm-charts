@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  k8s-web-forwarder:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-11-08T03:50:08.421228905Z"
+    description: Forward any ingress to arbitrary ip addresses
+    digest: d6ec2fbae1f805688e85a4505fc813c0c43be50e34e6d875efb5c4776ddc013a
+    name: k8s-web-forwarder
+    type: application
+    urls:
+    - https://github.com/tuana9a/helm-charts/releases/download/k8s-web-forwarder-0.1.0/k8s-web-forwarder-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-11-08T03:50:08.421241339Z"
